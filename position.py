@@ -9,7 +9,7 @@ def position_create(row: int, col: int) -> position:
 
 
 def position_is(pos: position) -> bool:
-    return type(pos) is tuple
+    "return type(pos) is tuple"
 
 
 def position_row(pos: position) -> int:
