@@ -25,6 +25,16 @@ pytest_position_priv.py::test_position_21 FAILED                         [ 91%]
 pytest_position_priv.py::test_position_22 PASSED                         [ 95%]
 pytest_position_priv.py::test_position_23 PASSED                         [100%]
 
+=================================== FAILURES ===================================
+/home/dtsd/DTSD/pytest_position_priv.py:23: assert None is False
+/home/dtsd/DTSD/pytest_position_priv.py:27: assert None is False
+/home/dtsd/DTSD/pytest_position_priv.py:31: assert None is False
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:17: ValueError: position_row: invalid arguments
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:23: ValueError: position_col: invalid arguments
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:29: ValueError: position_equal: invalid arguments
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:29: ValueError: position_equal: invalid arguments
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:35: ValueError: position_str: invalid arguments
+/home/dtsd/DTSD/dIoTspmatrix_52544/position.py:35: ValueError: position_str: invalid arguments
 ============================== slowest durations ===============================
 
 (69 durations < 1s hidden.  Use -vv to show these durations.)

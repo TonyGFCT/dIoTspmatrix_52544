@@ -48,6 +48,34 @@ pytest_spmatrix_priv.py::test_spmatrix_44 FAILED                         [ 95%]
 pytest_spmatrix_priv.py::test_spmatrix_45 FAILED                         [ 97%]
 pytest_spmatrix_priv.py::test_spmatrix_46 FAILED                         [100%]
 
+=================================== FAILURES ===================================
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:25: KeyError: tuple[int, int, int, int, int, int, int, int]
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:141: NameError: name 'spmatrix_dim' is not defined
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:153: NameError: name 'spmatrix_dim' is not defined
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:160: NameError: name 'spmatrix_copy' is not defined
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:166: NameError: name 'spmatrix_copy' is not defined
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:187: NameError: name 'spmatrix_sparsity' is not defined
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:248: NameError: name 'spmatrix_str' is not defined
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
+/home/dtsd/DTSD/pytest_spmatrix_priv.py:301: NameError: name 'spmatrix_diagonal' is not defined
+/home/dtsd/DTSD/dIoTspmatrix_52544/spmatrix.py:29: TypeError: 'builtin_function_or_method' object is not subscriptable
 ============================== slowest durations ===============================
 
 (138 durations < 1s hidden.  Use -vv to show these durations.)
