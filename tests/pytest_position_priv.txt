@@ -1,34 +1,34 @@
 ============================= test session starts ==============================
 collecting ... collected 23 items
 
-pytest_position_priv.py::test_position_01 PASSED                         [  4%]
-pytest_position_priv.py::test_position_02 PASSED                         [  8%]
-pytest_position_priv.py::test_position_03 FAILED                         [ 13%]
-pytest_position_priv.py::test_position_04 FAILED                         [ 17%]
-pytest_position_priv.py::test_position_05 FAILED                         [ 21%]
-pytest_position_priv.py::test_position_06 FAILED                         [ 26%]
-pytest_position_priv.py::test_position_07 PASSED                         [ 30%]
-pytest_position_priv.py::test_position_08 PASSED                         [ 34%]
-pytest_position_priv.py::test_position_09 FAILED                         [ 39%]
-pytest_position_priv.py::test_position_10 PASSED                         [ 43%]
-pytest_position_priv.py::test_position_11 PASSED                         [ 47%]
-pytest_position_priv.py::test_position_12 FAILED                         [ 52%]
-pytest_position_priv.py::test_position_13 FAILED                         [ 56%]
-pytest_position_priv.py::test_position_14 PASSED                         [ 60%]
-pytest_position_priv.py::test_position_15 PASSED                         [ 65%]
-pytest_position_priv.py::test_position_16 PASSED                         [ 69%]
-pytest_position_priv.py::test_position_17 PASSED                         [ 73%]
-pytest_position_priv.py::test_position_18 PASSED                         [ 78%]
-pytest_position_priv.py::test_position_19 PASSED                         [ 82%]
-pytest_position_priv.py::test_position_20 FAILED                         [ 86%]
-pytest_position_priv.py::test_position_21 FAILED                         [ 91%]
-pytest_position_priv.py::test_position_22 PASSED                         [ 95%]
-pytest_position_priv.py::test_position_23 PASSED                         [100%]
+pytest_position_priv.py::test_position_01_position_create PASSED         [  4%]
+pytest_position_priv.py::test_position_02_position_create PASSED         [  8%]
+pytest_position_priv.py::test_position_03_position_is FAILED             [ 13%]
+pytest_position_priv.py::test_position_04_position_is FAILED             [ 17%]
+pytest_position_priv.py::test_position_05_position_is FAILED             [ 21%]
+pytest_position_priv.py::test_position_06_position_row FAILED            [ 26%]
+pytest_position_priv.py::test_position_07_position_row PASSED            [ 30%]
+pytest_position_priv.py::test_position_08_position_row PASSED            [ 34%]
+pytest_position_priv.py::test_position_09_position_col FAILED            [ 39%]
+pytest_position_priv.py::test_position_10_position_col PASSED            [ 43%]
+pytest_position_priv.py::test_position_11_position_col PASSED            [ 47%]
+pytest_position_priv.py::test_position_12_position_equal FAILED          [ 52%]
+pytest_position_priv.py::test_position_13_position_equal FAILED          [ 56%]
+pytest_position_priv.py::test_position_14_position_equal PASSED          [ 60%]
+pytest_position_priv.py::test_position_15_position_equal PASSED          [ 65%]
+pytest_position_priv.py::test_position_16_position_equal PASSED          [ 69%]
+pytest_position_priv.py::test_position_17_position_equal PASSED          [ 73%]
+pytest_position_priv.py::test_position_18_position_equal PASSED          [ 78%]
+pytest_position_priv.py::test_position_19_position_equal PASSED          [ 82%]
+pytest_position_priv.py::test_position_20_position_str FAILED            [ 86%]
+pytest_position_priv.py::test_position_21_position_str FAILED            [ 91%]
+pytest_position_priv.py::test_position_22_position_str PASSED            [ 95%]
+pytest_position_priv.py::test_position_23_position_str PASSED            [100%]
 
 =================================== FAILURES ===================================
-/home/dtsd/DTSD/pytest_position_priv.py:23: assert None is False
-/home/dtsd/DTSD/pytest_position_priv.py:27: assert None is False
-/home/dtsd/DTSD/pytest_position_priv.py:31: assert None is False
+/home/dtsd/DTSD/pytest_position_priv.py:24: assert None is False
+/home/dtsd/DTSD/pytest_position_priv.py:28: assert None is False
+/home/dtsd/DTSD/pytest_position_priv.py:32: assert None is False
 /home/dtsd/DTSD/dIoTspmatrix_52544/position.py:17: ValueError: position_row: invalid arguments
 /home/dtsd/DTSD/dIoTspmatrix_52544/position.py:23: ValueError: position_col: invalid arguments
 /home/dtsd/DTSD/dIoTspmatrix_52544/position.py:29: ValueError: position_equal: invalid arguments
